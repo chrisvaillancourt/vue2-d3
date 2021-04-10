@@ -3,6 +3,7 @@ module.exports = {
   env: {
     browser: true,
     node: true,
+    es2020: true,
   },
   extends: [
     '@nuxtjs/eslint-config-typescript',
@@ -12,4 +13,4 @@ module.exports = {
   plugins: [],
   // add your custom rules here
   rules: {},
-}
+};
