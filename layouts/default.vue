@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <Nuxt />
-  </div>
+  <main>
+    <Nuxt keep-alive />
+  </main>
 </template>
 
 <style>
