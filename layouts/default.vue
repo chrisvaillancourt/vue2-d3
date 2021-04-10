@@ -1,7 +1,22 @@
 <template>
-  <main>
-    <Nuxt keep-alive />
-  </main>
+  <div>
+    <header>
+      <h1>Vue 2.x with D3</h1>
+      <nav>
+        <ul>
+          <nuxt-link
+            to="/histogram"
+            class="no-underline hover:underline text-blue-700"
+          >
+            <li>Histogram (bar chart)</li>
+          </nuxt-link>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <Nuxt keep-alive />
+    </main>
+  </div>
 </template>
 
 <style>
